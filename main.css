@@ -1,0 +1,217 @@
+header {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+    background-color: aqua;
+    font-family: "OpenSans",sans-serif;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    background-image: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 75%);
+}
+
+.welcome {background-color: white;
+    position: absolute;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    text-decoration: double;
+    color: deeppink;
+    font-family: "Comic Sans MS",sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 4px dotted rgb(255, 0, 238);
+    text-shadow: 5px 5px 5px rgb(64, 0, 255);
+    background-image: linear-gradient(135deg,rgb(6, 227, 227) 0%,rgb(155,81,224) 75%);
+}
+blockquote{
+    margin: auto;
+}
+
+.btnId {
+   display: block;
+}
+
+.carrier {
+    width: 175px;
+    height: 200px;
+    display: none;
+    margin-right: 10px;
+}
+
+.float {
+    width: 100px;
+    height: 75px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header{
+    text-align: center;
+    width: 31rem;
+    margin: auto;
+    text-transform: capitalize;
+    background-color: rgb(0, 217, 255);
+    color: deeppink;
+    font-family: "OpenSans",sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+
+}
+
+h4 {text-align: center;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    color:rgb(187, 0, 255);
+}
+h3 {text-align: center;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    color:rgb(187, 0, 255);
+    text-shadow: 1px 1px 2px rgb(64, 0, 255);
+}
+
+button {background-color: rgb(255, 209, 239);
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: wavy;
+        color:rgb(215, 104, 255);
+        text-shadow: 1px 1px 2px rgb(64, 0, 255);
+        border: 2px dotted rgb(255, 0, 238);
+        cursor: pointer;
+}
+
+.columnone {
+margin-top: 1rem;
+color:rgb(255, 52, 198);
+text-align: center;
+background-color: aquamarine;
+background-image: linear-gradient(180deg, rgb(255, 89, 233) 0%,rgb(60, 0, 115) 50%);
+border: 2px solid rgb(237, 0, 249);
+}
+
+.columntwo {
+    margin-top: 1rem;
+    background-color: skyblue;
+    padding-top: 0rem;
+    padding-bottom: 7rem;
+    border: 2px solid rgb(237, 0, 249);
+    background-image: linear-gradient(180deg, rgb(13, 6, 227) 0%,rgb(155,81,224) 100%);
+}
+.pets {
+    padding-top: 6rem;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+img {
+    position: relative;
+    margin: auto;
+    width: 200px;
+    height: 200px
+}
+nav {
+    margin: auto;
+    width: 50%;
+}
+
+  .blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
+  .marquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(180deg, rgb(6, 205, 227) 0%,rgb(155,81,224) 100%);
+    color: turquoise;
+    border: 1px dashed rgb(254, 98, 254);
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.marquee p {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: scroll-left 5s linear infinite;
+    -webkit-animation: scroll-left 5s linear infinite;
+    animation: scroll-left 5s linear infinite;
+}
+
+@-moz-keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes scroll-left {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+footer {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: rgb(255, 0, 238);
+    background-color: aqua;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 5px solid aqua;
+}
